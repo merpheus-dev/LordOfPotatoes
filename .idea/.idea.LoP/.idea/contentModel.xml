@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\mert2\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mert2\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_LoP.548387931.00" t="ExcludeRecursive" />
+    <e p="C:\Users\mert2\Desktop\LoP" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Code" t="Include">
+          <e p="GridSystems" t="Include">
+            <e p="Grid.cs" t="Include" />
+            <e p="GridManager.cs" t="Include" />
+            <e p="GridStatus.cs" t="Include" />
+            <e p="GridVisualizer.cs" t="Include" />
+          </e>
+          <e p="Movement" t="Include">
+            <e p="GridBlocker.cs" t="Include" />
+            <e p="MovableCharacter.cs" t="Include" />
+            <e p="PlayerCharacter.cs" t="Include" />
+          </e>
+          <e p="TurnSystems" t="Include">
+            <e p="Team.cs" t="Include" />
+            <e p="TurnManager.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="LoP.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
