@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Code.Movement
+namespace Code.Movement
 {
     public abstract class GridBlocker : MonoBehaviour
     {

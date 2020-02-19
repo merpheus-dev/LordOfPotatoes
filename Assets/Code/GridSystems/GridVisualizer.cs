@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using Assets.Code.GridSystems;
+using UnityEngine;
 
-namespace Assets.Code.GridSystems
+namespace Code.GridSystems
 {
     [RequireComponent(typeof(MeshRenderer))]
     public class GridVisualizer : MonoBehaviour

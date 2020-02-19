@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
-namespace Assets.Code.GridSystems
+using Assets.Code.GridSystems;
+
+namespace Code.GridSystems
 {
     public class Grid
     {

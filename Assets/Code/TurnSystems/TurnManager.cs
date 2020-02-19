@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assets.Code.Movement;
+using System.Linq;
+using Code.Movement;
 using UnityEngine;
 
 namespace Code.TurnSystems
@@ -17,6 +18,11 @@ namespace Code.TurnSystems
         
         private Queue<MovableCharacter> turnables = new Queue<MovableCharacter>();
 
+        public IEnumerable<MovableCharacter> GetPlayerTeamMembers()
+        {
+            return teamA;
+        }
+        
         private void Awake()
         {
             GenereateTeams();
@@ -25,7 +31,7 @@ namespace Code.TurnSystems
             TakeTurn();
         }
 
-    //TODO:Auto genereate team members from Resource.Load
+        //TODO:Auto genereate team members from Resource.Load
         private void GenereateTeams()
         {
             CreateTeam(ref teamA,teamAMembers);

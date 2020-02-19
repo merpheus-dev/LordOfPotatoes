@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Assets.Code.Movement;
+using Code.Movement;
 
 namespace Code.TurnSystems
 {

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using Assets.Code.GridSystems;
+using Code.GridSystems;
 using UnityEngine;
-using Grid = Assets.Code.GridSystems.Grid;
+using Grid = Code.GridSystems.Grid;
 
-namespace Assets.Code.Movement
+namespace Code.Movement
 {
     public class MovableCharacter : GridBlocker
     {
@@ -55,11 +56,6 @@ namespace Assets.Code.Movement
             {
                 movementPath.Push(nextNode);
                 nextNode = nextNode.Parent;
-            }
-
-            foreach (var path in movementPath)
-            {
-                Debug.Log("PATH:"+path.X+"|"+path.Y);
             }
         }
 

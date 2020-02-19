@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Code.Movement;
+using Assets.Code.GridSystems;
+using Code.Movement;
 using UnityEngine;
+using Grid = Code.GridSystems.Grid;
 
-namespace Assets.Code.GridSystems
+namespace Code.GridSystems
 {
     public class GridManager : MonoBehaviour
     {
@@ -13,7 +15,15 @@ namespace Assets.Code.GridSystems
         [SerializeField] private int gridSize = 10;
         private Grid[,] _grids;
         private List<GridVisualizer> _visualizers = new List<GridVisualizer>();
-    
+        private List<Grid> BlockedGrids
+        {
+            get
+            {
+                return FindObjectsOfType<GridBlocker>()
+                    .Select(e => GetGridFromPosition(e.transform.position))
+                    .ToList();
+            }
+        }
         public Grid GetGridFromPosition(Vector3 position)
         {
             var x = (int) position.x;
@@ -36,6 +46,31 @@ namespace Assets.Code.GridSystems
                 visualizer.ClearStatus();
             
             CalculateAdjacent();
+        }
+
+        public IEnumerable<Grid> GetNearestGridsToTargetGrid(Grid target)
+        {
+            var distance = Mathf.Infinity;
+            var set = new HashSet<Grid>();
+            foreach (var grid in _grids)
+            {
+                if(grid==target) continue;
+                var dist = Vector2.Distance(new Vector2(target.X, target.Y), new Vector2(grid.X, grid.Y));
+                if (dist < distance)
+                {
+                    distance = dist;
+                }
+            }
+
+            foreach (var grid in _grids)
+            {
+                if(grid==target) continue;
+                var dist = Vector2.Distance(new Vector2(target.X, target.Y), new Vector2(grid.X, grid.Y));
+                if (dist <= distance)
+                    set.Add(grid);
+            }
+
+            return set.ToArray();
         }
 
         private void Awake()
@@ -70,16 +105,12 @@ namespace Assets.Code.GridSystems
 
         private List<Grid> GetAdjacent(int x, int y)
         {
-            var gridBlockers = FindObjectsOfType<GridBlocker>()
-                .Select(e => GetGridFromPosition(e.transform.position))
-                .ToList();
-            
             var left = Mathf.Max(x - 1, 0);
             var right = Mathf.Min(x + 1, _grids.GetLength(0) - 1);
             var up = Mathf.Min(y + 1, _grids.GetLength(1) - 1);
             var down = Mathf.Max(y - 1, 0);
             var possibleGrids = new[] {_grids[left, y], _grids[right, y], _grids[x, up], _grids[x, down]};
-            return possibleGrids.Where(possibleGrid => possibleGrid.Walkable && !gridBlockers.Contains(possibleGrid)).ToList();
+            return possibleGrids.Where(possibleGrid => possibleGrid.Walkable && !BlockedGrids.Contains(possibleGrid)).ToList();
         }
 
         private void InitVisualizers()

@@ -4,6 +4,7 @@
     <e p="C:\Users\mert2\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\mert2\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_LoP.548387931.00" t="ExcludeRecursive" />
     <e p="C:\Users\mert2\Desktop\LoP" t="IncludeRecursive">
+      <e p=".git\info\exclude" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Code" t="Include">
@@ -14,9 +15,28 @@
             <e p="GridVisualizer.cs" t="Include" />
           </e>
           <e p="Movement" t="Include">
+            <e p="AICharacter.cs" t="Include" />
             <e p="GridBlocker.cs" t="Include" />
             <e p="MovableCharacter.cs" t="Include" />
             <e p="PlayerCharacter.cs" t="Include" />
+          </e>
+          <e p="NavMeshComponents" t="Include">
+            <e p="Editor" t="Include">
+              <e p="NavMeshAssetManager.cs" t="Include" />
+              <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+              <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+              <e p="NavMeshLinkEditor.cs" t="Include" />
+              <e p="NavMeshModifierEditor.cs" t="Include" />
+              <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+              <e p="NavMeshSurfaceEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="NavMeshComponents.asmdef" t="Include" />
+              <e p="NavMeshLink.cs" t="Include" />
+              <e p="NavMeshModifier.cs" t="Include" />
+              <e p="NavMeshModifierVolume.cs" t="Include" />
+              <e p="NavMeshSurface.cs" t="Include" />
+            </e>
           </e>
           <e p="TurnSystems" t="Include">
             <e p="Team.cs" t="Include" />
@@ -25,6 +45,8 @@
         </e>
       </e>
       <e p="LoP.sln" t="IncludeFlat" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />

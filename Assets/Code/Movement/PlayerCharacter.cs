@@ -1,7 +1,8 @@
 ﻿using Assets.Code.GridSystems;
+using Code.GridSystems;
 using UnityEngine;
 
-namespace Assets.Code.Movement
+namespace Code.Movement
 {
     public class PlayerCharacter : MovableCharacter
     {
