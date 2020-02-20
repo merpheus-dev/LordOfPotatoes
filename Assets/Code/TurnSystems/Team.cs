@@ -6,16 +6,16 @@ using Code.Movement;
 namespace Code.TurnSystems
 {
     [Serializable]
-    public class Team : IEnumerable<MovableCharacter>
+    public class Team : IEnumerable<Unit>
     {
-        private List<MovableCharacter> units = new List<MovableCharacter>();
+        private List<Unit> units = new List<Unit>();
 
-        public void AddUnit(MovableCharacter unit)
+        public void AddUnit(Unit unit)
         {
             units.Add(unit);
         }
         
-        public IEnumerator<MovableCharacter> GetEnumerator()
+        public IEnumerator<Unit> GetEnumerator()
         {
             return units.GetEnumerator();
         }

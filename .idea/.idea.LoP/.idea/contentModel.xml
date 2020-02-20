@@ -5,9 +5,68 @@
     <e p="C:\Users\mert2\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_LoP.548387931.00" t="ExcludeRecursive" />
     <e p="C:\Users\mert2\Desktop\LoP" t="IncludeRecursive">
       <e p=".git\info\exclude" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Art" t="Include">
+          <e p="FX" t="Include">
+            <e p="JMO Assets" t="Include">
+              <e p="Cartoon FX" t="Include">
+                <e p="CartoonFX Free.txt" t="Include" />
+                <e p="Demo" t="Include">
+                  <e p="Assets" t="Include">
+                    <e p="CFX_AutoStopLoopedEffect.cs" t="Include" />
+                    <e p="CFX_Demo_New.cs" t="Include" />
+                    <e p="CFX_Demo_RandomDir.cs" t="Include" />
+                    <e p="CFX_Demo_RandomDirectionTranslate.cs" t="Include" />
+                    <e p="CFX_Demo_RotateCamera.cs" t="Include" />
+                    <e p="CFX_Demo_Translate.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="CFX_AutoDestructShuriken.cs" t="Include" />
+                  <e p="CFX_AutoRotate.cs" t="Include" />
+                  <e p="CFX_LightFlicker.cs" t="Include" />
+                  <e p="CFX_LightIntensityFade.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="CFX3 Multiply Color.shader" t="Include" />
+                  <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Cartoon FX Easy Editor" t="Include">
+                <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="CFXEasyEditor.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Code" t="Include">
+          <e p="Combat" t="Include">
+            <e p="AttackActors" t="Include">
+              <e p="AttackActor.cs" t="Include" />
+              <e p="FlatAttackActor.cs" t="Include" />
+              <e p="LargeAttackActor.cs" t="Include" />
+              <e p="RangeAttackActor.cs" t="Include" />
+            </e>
+            <e p="AttackCommands" t="Include">
+              <e p="AttackCommand.cs" t="Include" />
+              <e p="DirectionalAttackCommand.cs" t="Include" />
+              <e p="FlatAttackCommand.cs" t="Include" />
+              <e p="LargeAttackCommand.cs" t="Include" />
+              <e p="RangeAttackCommand.cs" t="Include" />
+            </e>
+            <e p="AttackData.cs" t="Include" />
+            <e p="AttackVisualizer.cs" t="Include" />
+            <e p="Command.cs" t="Include" />
+            <e p="CommandFactory.cs" t="Include" />
+            <e p="PassTurnCommand.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="AutoUIFit.cs" t="Include" />
+          </e>
           <e p="GridSystems" t="Include">
             <e p="Grid.cs" t="Include" />
             <e p="GridManager.cs" t="Include" />
@@ -17,36 +76,199 @@
           <e p="Movement" t="Include">
             <e p="AICharacter.cs" t="Include" />
             <e p="GridBlocker.cs" t="Include" />
-            <e p="MovableCharacter.cs" t="Include" />
+            <e p="IDamageable.cs" t="Include" />
             <e p="PlayerCharacter.cs" t="Include" />
-          </e>
-          <e p="NavMeshComponents" t="Include">
-            <e p="Editor" t="Include">
-              <e p="NavMeshAssetManager.cs" t="Include" />
-              <e p="NavMeshComponentsEditor.asmdef" t="Include" />
-              <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
-              <e p="NavMeshLinkEditor.cs" t="Include" />
-              <e p="NavMeshModifierEditor.cs" t="Include" />
-              <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
-              <e p="NavMeshSurfaceEditor.cs" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="NavMeshComponents.asmdef" t="Include" />
-              <e p="NavMeshLink.cs" t="Include" />
-              <e p="NavMeshModifier.cs" t="Include" />
-              <e p="NavMeshModifierVolume.cs" t="Include" />
-              <e p="NavMeshSurface.cs" t="Include" />
-            </e>
+            <e p="Unit.cs" t="Include" />
           </e>
           <e p="TurnSystems" t="Include">
             <e p="Team.cs" t="Include" />
             <e p="TurnManager.cs" t="Include" />
           </e>
+          <e p="UI" t="Include">
+            <e p="CombatUi.cs" t="Include" />
+            <e p="EventDispatcher.cs" t="Include" />
+            <e p="IUiEventListener.cs" t="Include" />
+          </e>
+        </e>
+        <e p="KriptoFX" t="Include">
+          <e p="Realistic Effects Pack v4" t="Include">
+            <e p="Effects" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Curves" t="Include">
+                  <e p="RFX4_AudioCurves.cs" t="Include" />
+                  <e p="RFX4_LightCurves.cs" t="Include" />
+                  <e p="RFX4_PhysicsForceCurves.cs" t="Include" />
+                  <e p="RFX4_ScaleCurves.cs" t="Include" />
+                  <e p="RFX4_ShaderColorGradient.cs" t="Include" />
+                  <e p="RFX4_ShaderFloatCurve.cs" t="Include" />
+                  <e p="RFX4_ShaderProperties.cs" t="Include" />
+                  <e p="RFX4_WindCurves.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="RFX4_CustomMaterialInspectorParticle.cs" t="Include" />
+                  <e p="RFX4_ReplaceDistortionForMobile.cs" t="Include" />
+                  <e p="RFX4_Unity_Pain.cs" t="Include" />
+                </e>
+                <e p="EffectSettings" t="Include">
+                  <e p="RFX4_EffectSettings.cs" t="Include" />
+                  <e p="RFX4_EffectSettingsInspector.cs" t="Include" />
+                </e>
+                <e p="ParticleSysem" t="Include">
+                  <e p="RFX4_CollisionPropertyDeactiavtion.cs" t="Include" />
+                  <e p="RFX4_ParticleGravityDelay.cs" t="Include" />
+                  <e p="RFX4_ParticleLight.cs" t="Include" />
+                  <e p="RFX4_ParticleTrail.cs" t="Include" />
+                  <e p="RFX4_Turbulence.cs" t="Include" />
+                </e>
+                <e p="Rendering" t="Include">
+                  <e p="RFX4_MobileDistortion.cs" t="Include" />
+                  <e p="RFX4_PerPlatformSettings.cs" t="Include" />
+                  <e p="RFX4_RenderTransparentDistortion.cs" t="Include" />
+                </e>
+                <e p="RFX4_CameraShake.cs" t="Include" />
+                <e p="RFX4_ColorHelper.cs" t="Include" />
+                <e p="RFX4_CopyPosition.cs" t="Include" />
+                <e p="RFX4_CustomLight.cs" t="Include" />
+                <e p="RFX4_DeactivateByTime.cs" t="Include" />
+                <e p="RFX4_DeactivateRigidbodyByTime.cs" t="Include" />
+                <e p="RFX4_Decal.cs" t="Include" />
+                <e p="RFX4_DemoReactivation.cs" t="Include" />
+                <e p="RFX4_EffectEvent.cs" t="Include" />
+                <e p="RFX4_MaterialQueue.cs" t="Include" />
+                <e p="RFX4_OnEnableResetTransform.cs" t="Include" />
+                <e p="RFX4_ParticleCollisionGameObject.cs" t="Include" />
+                <e p="RFX4_ParticleGravityPoint.cs" t="Include" />
+                <e p="RFX4_PhysicsMotion.cs" t="Include" />
+                <e p="RFX4_PhysXSetImpulse.cs" t="Include" />
+                <e p="RFX4_RaycastCollision.cs" t="Include" />
+                <e p="RFX4_ReplaceModelOnCollision.cs" t="Include" />
+                <e p="RFX4_RotateAround.cs" t="Include" />
+                <e p="RFX4_StartDelay.cs" t="Include" />
+                <e p="RFX4_TextureShaderProperties.cs" t="Include" />
+                <e p="RFX4_TornadoParticles.cs" t="Include" />
+                <e p="RFX4_TrailRenderer.cs" t="Include" />
+                <e p="RFX4_UVAnimation.cs" t="Include" />
+                <e p="RFX4_UVScroll.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="DemoMobileDiffuse.shader" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="RFX4_UberDecalGUI.cs" t="Include" />
+                  <e p="RFX4_UberDistortionGUI.cs" t="Include" />
+                  <e p="RFX4_UberParticleGUI.cs" t="Include" />
+                </e>
+                <e p="Portal" t="Include">
+                  <e p="NoStencilTransperentDiffuse.shader" t="Include" />
+                  <e p="RFX4_PortalMask.shader" t="Include" />
+                  <e p="RFX4_PortalRock.shader" t="Include" />
+                  <e p="RFX4_PortalRockStencil.shader" t="Include" />
+                  <e p="RFX4_PortalSky.shader" t="Include" />
+                  <e p="RFX4_TranperentDiffuse.shader" t="Include" />
+                </e>
+                <e p="RFX4_CutoutBorder.shader" t="Include" />
+                <e p="RFX4_DepthMask.shader" t="Include" />
+                <e p="RFX4_Lightning.shader" t="Include" />
+                <e p="RFX4_Tornado.shader" t="Include" />
+                <e p="RFX4_UberDecal.shader" t="Include" />
+                <e p="RFX4_UberDistortion.shader" t="Include" />
+                <e p="RFX4_UberParticleShader.shader" t="Include" />
+              </e>
+            </e>
+            <e p="ImagePostEffects" t="Include">
+              <e p="Mobile" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="RFX4_Bloom.shader" t="Include" />
+                  <e p="RFX4_Bloom_Inc.cginc" t="Include" />
+                </e>
+                <e p="RFX4_MobileBloom.cs" t="Include" />
+              </e>
+            </e>
+            <e p="readme.txt" t="Include" />
+            <e p="SceneResources" t="Include">
+              <e p="Other" t="Include">
+                <e p="CullOffMobileDiffuse.shader" t="Include" />
+                <e p="FPS.cs" t="Include" />
+                <e p="RFX4_Debug.cs" t="Include" />
+                <e p="RFX4_DemoGUI.cs" t="Include" />
+                <e p="RFX4_FPS.cs" t="Include" />
+                <e p="RFX4_MouseOrbit.cs" t="Include" />
+                <e p="RFX4_RealtimeReflection.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Thirdparty" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DemiLib" t="Include">
+              <e p="Core" t="Include">
+                <e p="DemiLib.xml" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="DemiEditor.xml" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTween.Modules.asmdef" t="Include" />
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+            <e p="DOTweenPro" t="Include">
+              <e p="DOTweenAnimation.cs" t="Include" />
+              <e p="DOTweenPro.Scripts.asmdef" t="Include" />
+              <e p="DOTweenProShortcuts.cs" t="Include" />
+              <e p="DOTweenTextMeshPro.cs" t="Include" />
+              <e p="DOTweenTk2d.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="DOTweenAnimationInspector.cs" t="Include" />
+                <e p="DOTweenPreviewManager.cs" t="Include" />
+                <e p="DOTweenPro.EditorScripts.asmdef" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+            <e p="readme_DOTweenPro.txt" t="Include" />
+          </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="LiberationSans - OFL.txt" t="Include" />
+            </e>
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                <e p="TMP_Bitmap.shader" t="Include" />
+                <e p="TMP_SDF Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface.shader" t="Include" />
+                <e p="TMP_SDF.shader" t="Include" />
+                <e p="TMP_Sprite.shader" t="Include" />
+                <e p="TMPro.cginc" t="Include" />
+                <e p="TMPro_Properties.cginc" t="Include" />
+                <e p="TMPro_Surface.cginc" t="Include" />
+              </e>
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
+      <e p="DOTween.Modules.csproj" t="IncludeRecursive" />
+      <e p="DOTweenPro.EditorScripts.csproj" t="IncludeRecursive" />
+      <e p="DOTweenPro.Scripts.csproj" t="IncludeRecursive" />
       <e p="LoP.sln" t="IncludeFlat" />
-      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
-      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />

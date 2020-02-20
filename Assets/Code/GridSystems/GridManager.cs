@@ -10,11 +10,11 @@ namespace Code.GridSystems
 {
     public class GridManager : MonoBehaviour
     {
-        [SerializeField] private bool visualize = false;
         [SerializeField] private GridVisualizer visualizerPrefab;
         [SerializeField] private int gridSize = 10;
         private Grid[,] _grids;
         private List<GridVisualizer> _visualizers = new List<GridVisualizer>();
+
         private List<Grid> BlockedGrids
         {
             get
@@ -24,6 +24,7 @@ namespace Code.GridSystems
                     .ToList();
             }
         }
+
         public Grid GetGridFromPosition(Vector3 position)
         {
             var x = (int) position.x;
@@ -44,7 +45,7 @@ namespace Code.GridSystems
         {
             foreach (var visualizer in _visualizers)
                 visualizer.ClearStatus();
-            
+
             CalculateAdjacent();
         }
 
@@ -54,7 +55,7 @@ namespace Code.GridSystems
             var set = new HashSet<Grid>();
             foreach (var grid in _grids)
             {
-                if(grid==target) continue;
+                if (grid == target) continue;
                 var dist = Vector2.Distance(new Vector2(target.X, target.Y), new Vector2(grid.X, grid.Y));
                 if (dist < distance)
                 {
@@ -64,7 +65,7 @@ namespace Code.GridSystems
 
             foreach (var grid in _grids)
             {
-                if(grid==target) continue;
+                if (grid == target) continue;
                 var dist = Vector2.Distance(new Vector2(target.X, target.Y), new Vector2(grid.X, grid.Y));
                 if (dist <= distance)
                     set.Add(grid);
@@ -110,7 +111,8 @@ namespace Code.GridSystems
             var up = Mathf.Min(y + 1, _grids.GetLength(1) - 1);
             var down = Mathf.Max(y - 1, 0);
             var possibleGrids = new[] {_grids[left, y], _grids[right, y], _grids[x, up], _grids[x, down]};
-            return possibleGrids.Where(possibleGrid => possibleGrid.Walkable && !BlockedGrids.Contains(possibleGrid)).ToList();
+            return possibleGrids.Where(possibleGrid => possibleGrid.Walkable && !BlockedGrids.Contains(possibleGrid))
+                .ToList();
         }
 
         private void InitVisualizers()

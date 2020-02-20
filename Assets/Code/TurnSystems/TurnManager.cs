@@ -9,18 +9,28 @@ namespace Code.TurnSystems
     public class TurnManager : MonoBehaviour
     {
         //TODO: Remove this && Auto genereate team members from Resource.Load
-        [SerializeField] private MovableCharacter[] teamAMembers;
-        [SerializeField] private MovableCharacter[] teamBMembers;
+        [SerializeField] private Unit[] teamAMembers;
+        [SerializeField] private Unit[] teamBMembers;
         
         private Team teamA;
         private Team teamB;
         private Team activeTeam;
         
-        private Queue<MovableCharacter> turnables = new Queue<MovableCharacter>();
+        private Queue<Unit> turnables = new Queue<Unit>();
 
-        public IEnumerable<MovableCharacter> GetPlayerTeamMembers()
+        public IEnumerable<Unit> GetPlayerTeamMembers()
         {
             return teamA;
+        }
+
+        public Unit GetCurrentlyAuthUnit()
+        {
+            return turnables.Peek();
+        }
+
+        public Team GetCurrentlyAuthTeam()
+        {
+            return activeTeam;
         }
         
         private void Awake()
@@ -38,7 +48,7 @@ namespace Code.TurnSystems
             CreateTeam(ref teamB,teamBMembers);
         }
 
-        private void CreateTeam(ref Team team, MovableCharacter[] members)
+        private void CreateTeam(ref Team team, Unit[] members)
         {
             team = new Team();
             foreach (var member in members)
@@ -49,7 +59,7 @@ namespace Code.TurnSystems
 
         public void TakeTurn()
         {
-            var authorizedMember = turnables.Peek();
+            var authorizedMember = GetCurrentlyAuthUnit();
             authorizedMember.TakeTurn(OnTurnComplete);
         }
 

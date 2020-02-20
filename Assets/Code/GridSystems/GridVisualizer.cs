@@ -26,16 +26,16 @@ namespace Code.GridSystems
             switch (TargetGrid.GridStatus)
             {
                 case GridStatus.Current:
-                    _renderer.material.color = Color.green;
+                    _renderer.material.color = new Color(0,1,0,.1f);
                     break;
                 case GridStatus.Selectable:
-                    _renderer.material.color = Color.red;
+                    _renderer.material.color = new Color(1,0,0,.2f);
                     break;
                 case GridStatus.None:
-                    _renderer.material.color = Color.white;
+                    _renderer.material.color =  new Color(1,1,1,.01f);
                     break;
                 case GridStatus.Target:
-                    _renderer.material.color = Color.yellow;
+                    _renderer.material.color = new Color(1,1,0,.2f);
                     break;
             }
         }
