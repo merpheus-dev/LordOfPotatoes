@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Linq;
+using Code.AI;
+using Code.Combat;
 using Code.TurnSystems;
 using UnityEngine;
 using UnityEngine.AI;
@@ -8,10 +10,17 @@ using Grid = Code.GridSystems.Grid;
 
 namespace Code.Movement
 {
-    public class AiCharacter : Unit
+    [RequireComponent(typeof(AiCommandDriver))]
+    public sealed class AiCharacter : Unit
     {
         [SerializeField] private TurnManager turnManager;
         private Unit _target;
+        private AiCommandDriver _driver;
+
+        private void Awake()
+        {
+            _driver = GetComponent<AiCommandDriver>();
+        }
 
         private void Update()
         {
@@ -30,8 +39,10 @@ namespace Code.Movement
 
         private void FindNearestTarget()
         {
-            _target = turnManager.GetPlayerTeamMembers()
-                .OrderBy(x => Vector3.Distance(x.transform.position, transform.position)).First();
+            // _target = turnManager.GetPlayerTeamMembers()
+            //     .OrderBy(x => Vector3.Distance(x.transform.position, transform.position)).First();
+
+            _target = _driver.PickTarget(this);
         }
 
         private void FindPathToTarget()
@@ -54,7 +65,6 @@ namespace Code.Movement
             CalculatePath(nearestSelectable);
         }
 
-        //TODO: Implement
         protected override void AuthForCombatChoices()
         {
             WaitingForCombatSelection = true;
@@ -63,7 +73,10 @@ namespace Code.Movement
 
         private IEnumerator PerformAttack()
         {
-            yield return new WaitForSeconds(2f);
+            var command = _driver.MakeDecision(this, _target);
+            if (!(command is PassTurnCommand))
+                ((AttackCommand)command).InjectData(new AttackData(Animator, transform, _target.transform.position));
+            yield return command.Execute(null);
             WaitingForCombatSelection = false;
             FinishTurn();
         }

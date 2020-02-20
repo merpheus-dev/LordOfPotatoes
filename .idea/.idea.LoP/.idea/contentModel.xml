@@ -41,9 +41,126 @@
                 </e>
               </e>
             </e>
+            <e p="KriptoFX" t="Include">
+              <e p="Realistic Effects Pack v4" t="Include">
+                <e p="Effects" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="Curves" t="Include">
+                      <e p="RFX4_AudioCurves.cs" t="Include" />
+                      <e p="RFX4_LightCurves.cs" t="Include" />
+                      <e p="RFX4_PhysicsForceCurves.cs" t="Include" />
+                      <e p="RFX4_ScaleCurves.cs" t="Include" />
+                      <e p="RFX4_ShaderColorGradient.cs" t="Include" />
+                      <e p="RFX4_ShaderFloatCurve.cs" t="Include" />
+                      <e p="RFX4_ShaderProperties.cs" t="Include" />
+                      <e p="RFX4_WindCurves.cs" t="Include" />
+                    </e>
+                    <e p="Editor" t="Include">
+                      <e p="RFX4_CustomMaterialInspectorParticle.cs" t="Include" />
+                      <e p="RFX4_ReplaceDistortionForMobile.cs" t="Include" />
+                      <e p="RFX4_Unity_Pain.cs" t="Include" />
+                    </e>
+                    <e p="EffectSettings" t="Include">
+                      <e p="RFX4_EffectSettings.cs" t="Include" />
+                      <e p="RFX4_EffectSettingsInspector.cs" t="Include" />
+                    </e>
+                    <e p="ParticleSysem" t="Include">
+                      <e p="RFX4_CollisionPropertyDeactiavtion.cs" t="Include" />
+                      <e p="RFX4_ParticleGravityDelay.cs" t="Include" />
+                      <e p="RFX4_ParticleLight.cs" t="Include" />
+                      <e p="RFX4_ParticleTrail.cs" t="Include" />
+                      <e p="RFX4_Turbulence.cs" t="Include" />
+                    </e>
+                    <e p="Rendering" t="Include">
+                      <e p="RFX4_MobileDistortion.cs" t="Include" />
+                      <e p="RFX4_PerPlatformSettings.cs" t="Include" />
+                      <e p="RFX4_RenderTransparentDistortion.cs" t="Include" />
+                    </e>
+                    <e p="RFX4_CameraShake.cs" t="Include" />
+                    <e p="RFX4_ColorHelper.cs" t="Include" />
+                    <e p="RFX4_CopyPosition.cs" t="Include" />
+                    <e p="RFX4_CustomLight.cs" t="Include" />
+                    <e p="RFX4_DeactivateByTime.cs" t="Include" />
+                    <e p="RFX4_DeactivateRigidbodyByTime.cs" t="Include" />
+                    <e p="RFX4_Decal.cs" t="Include" />
+                    <e p="RFX4_DemoReactivation.cs" t="Include" />
+                    <e p="RFX4_EffectEvent.cs" t="Include" />
+                    <e p="RFX4_MaterialQueue.cs" t="Include" />
+                    <e p="RFX4_OnEnableResetTransform.cs" t="Include" />
+                    <e p="RFX4_ParticleCollisionGameObject.cs" t="Include" />
+                    <e p="RFX4_ParticleGravityPoint.cs" t="Include" />
+                    <e p="RFX4_PhysicsMotion.cs" t="Include" />
+                    <e p="RFX4_PhysXSetImpulse.cs" t="Include" />
+                    <e p="RFX4_RaycastCollision.cs" t="Include" />
+                    <e p="RFX4_ReplaceModelOnCollision.cs" t="Include" />
+                    <e p="RFX4_RotateAround.cs" t="Include" />
+                    <e p="RFX4_StartDelay.cs" t="Include" />
+                    <e p="RFX4_TextureShaderProperties.cs" t="Include" />
+                    <e p="RFX4_TornadoParticles.cs" t="Include" />
+                    <e p="RFX4_TrailRenderer.cs" t="Include" />
+                    <e p="RFX4_UVAnimation.cs" t="Include" />
+                    <e p="RFX4_UVScroll.cs" t="Include" />
+                  </e>
+                  <e p="Shaders" t="Include">
+                    <e p="DemoMobileDiffuse.shader" t="Include" />
+                    <e p="Editor" t="Include">
+                      <e p="RFX4_UberDecalGUI.cs" t="Include" />
+                      <e p="RFX4_UberDistortionGUI.cs" t="Include" />
+                      <e p="RFX4_UberParticleGUI.cs" t="Include" />
+                    </e>
+                    <e p="Portal" t="Include">
+                      <e p="NoStencilTransperentDiffuse.shader" t="Include" />
+                      <e p="RFX4_PortalMask.shader" t="Include" />
+                      <e p="RFX4_PortalRock.shader" t="Include" />
+                      <e p="RFX4_PortalRockStencil.shader" t="Include" />
+                      <e p="RFX4_PortalSky.shader" t="Include" />
+                      <e p="RFX4_TranperentDiffuse.shader" t="Include" />
+                    </e>
+                    <e p="RFX4_CutoutBorder.shader" t="Include" />
+                    <e p="RFX4_DepthMask.shader" t="Include" />
+                    <e p="RFX4_Lightning.shader" t="Include" />
+                    <e p="RFX4_Tornado.shader" t="Include" />
+                    <e p="RFX4_UberDecal.shader" t="Include" />
+                    <e p="RFX4_UberDistortion.shader" t="Include" />
+                    <e p="RFX4_UberParticleShader.shader" t="Include" />
+                  </e>
+                </e>
+                <e p="ImagePostEffects" t="Include">
+                  <e p="Mobile" t="Include">
+                    <e p="Resources" t="Include">
+                      <e p="RFX4_Bloom.shader" t="Include" />
+                      <e p="RFX4_Bloom_Inc.cginc" t="Include" />
+                    </e>
+                    <e p="RFX4_MobileBloom.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="readme.txt" t="Include" />
+                <e p="SceneResources" t="Include">
+                  <e p="Other" t="Include">
+                    <e p="CullOffMobileDiffuse.shader" t="Include" />
+                    <e p="FPS.cs" t="Include" />
+                    <e p="RFX4_Debug.cs" t="Include" />
+                    <e p="RFX4_DemoGUI.cs" t="Include" />
+                    <e p="RFX4_FPS.cs" t="Include" />
+                    <e p="RFX4_MouseOrbit.cs" t="Include" />
+                    <e p="RFX4_RealtimeReflection.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
           </e>
         </e>
         <e p="Code" t="Include">
+          <e p="AI" t="Include">
+            <e p="AiCommandDriver.cs" t="Include" />
+            <e p="WeightedRandom" t="Include">
+              <e p="AbstractRandomProvider.cs" t="Include" />
+              <e p="SystemRandomProvider.cs" t="Include" />
+              <e p="UnityEngineRandomProvider.cs" t="Include" />
+              <e p="WeightAlgorithm.cs" t="Include" />
+              <e p="WeightedRandom.cs" t="Include" />
+            </e>
+          </e>
           <e p="Combat" t="Include">
             <e p="AttackActors" t="Include">
               <e p="AttackActor.cs" t="Include" />
@@ -88,113 +205,6 @@
             <e p="CombatUi.cs" t="Include" />
             <e p="EventDispatcher.cs" t="Include" />
             <e p="IUiEventListener.cs" t="Include" />
-          </e>
-        </e>
-        <e p="KriptoFX" t="Include">
-          <e p="Realistic Effects Pack v4" t="Include">
-            <e p="Effects" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="Curves" t="Include">
-                  <e p="RFX4_AudioCurves.cs" t="Include" />
-                  <e p="RFX4_LightCurves.cs" t="Include" />
-                  <e p="RFX4_PhysicsForceCurves.cs" t="Include" />
-                  <e p="RFX4_ScaleCurves.cs" t="Include" />
-                  <e p="RFX4_ShaderColorGradient.cs" t="Include" />
-                  <e p="RFX4_ShaderFloatCurve.cs" t="Include" />
-                  <e p="RFX4_ShaderProperties.cs" t="Include" />
-                  <e p="RFX4_WindCurves.cs" t="Include" />
-                </e>
-                <e p="Editor" t="Include">
-                  <e p="RFX4_CustomMaterialInspectorParticle.cs" t="Include" />
-                  <e p="RFX4_ReplaceDistortionForMobile.cs" t="Include" />
-                  <e p="RFX4_Unity_Pain.cs" t="Include" />
-                </e>
-                <e p="EffectSettings" t="Include">
-                  <e p="RFX4_EffectSettings.cs" t="Include" />
-                  <e p="RFX4_EffectSettingsInspector.cs" t="Include" />
-                </e>
-                <e p="ParticleSysem" t="Include">
-                  <e p="RFX4_CollisionPropertyDeactiavtion.cs" t="Include" />
-                  <e p="RFX4_ParticleGravityDelay.cs" t="Include" />
-                  <e p="RFX4_ParticleLight.cs" t="Include" />
-                  <e p="RFX4_ParticleTrail.cs" t="Include" />
-                  <e p="RFX4_Turbulence.cs" t="Include" />
-                </e>
-                <e p="Rendering" t="Include">
-                  <e p="RFX4_MobileDistortion.cs" t="Include" />
-                  <e p="RFX4_PerPlatformSettings.cs" t="Include" />
-                  <e p="RFX4_RenderTransparentDistortion.cs" t="Include" />
-                </e>
-                <e p="RFX4_CameraShake.cs" t="Include" />
-                <e p="RFX4_ColorHelper.cs" t="Include" />
-                <e p="RFX4_CopyPosition.cs" t="Include" />
-                <e p="RFX4_CustomLight.cs" t="Include" />
-                <e p="RFX4_DeactivateByTime.cs" t="Include" />
-                <e p="RFX4_DeactivateRigidbodyByTime.cs" t="Include" />
-                <e p="RFX4_Decal.cs" t="Include" />
-                <e p="RFX4_DemoReactivation.cs" t="Include" />
-                <e p="RFX4_EffectEvent.cs" t="Include" />
-                <e p="RFX4_MaterialQueue.cs" t="Include" />
-                <e p="RFX4_OnEnableResetTransform.cs" t="Include" />
-                <e p="RFX4_ParticleCollisionGameObject.cs" t="Include" />
-                <e p="RFX4_ParticleGravityPoint.cs" t="Include" />
-                <e p="RFX4_PhysicsMotion.cs" t="Include" />
-                <e p="RFX4_PhysXSetImpulse.cs" t="Include" />
-                <e p="RFX4_RaycastCollision.cs" t="Include" />
-                <e p="RFX4_ReplaceModelOnCollision.cs" t="Include" />
-                <e p="RFX4_RotateAround.cs" t="Include" />
-                <e p="RFX4_StartDelay.cs" t="Include" />
-                <e p="RFX4_TextureShaderProperties.cs" t="Include" />
-                <e p="RFX4_TornadoParticles.cs" t="Include" />
-                <e p="RFX4_TrailRenderer.cs" t="Include" />
-                <e p="RFX4_UVAnimation.cs" t="Include" />
-                <e p="RFX4_UVScroll.cs" t="Include" />
-              </e>
-              <e p="Shaders" t="Include">
-                <e p="DemoMobileDiffuse.shader" t="Include" />
-                <e p="Editor" t="Include">
-                  <e p="RFX4_UberDecalGUI.cs" t="Include" />
-                  <e p="RFX4_UberDistortionGUI.cs" t="Include" />
-                  <e p="RFX4_UberParticleGUI.cs" t="Include" />
-                </e>
-                <e p="Portal" t="Include">
-                  <e p="NoStencilTransperentDiffuse.shader" t="Include" />
-                  <e p="RFX4_PortalMask.shader" t="Include" />
-                  <e p="RFX4_PortalRock.shader" t="Include" />
-                  <e p="RFX4_PortalRockStencil.shader" t="Include" />
-                  <e p="RFX4_PortalSky.shader" t="Include" />
-                  <e p="RFX4_TranperentDiffuse.shader" t="Include" />
-                </e>
-                <e p="RFX4_CutoutBorder.shader" t="Include" />
-                <e p="RFX4_DepthMask.shader" t="Include" />
-                <e p="RFX4_Lightning.shader" t="Include" />
-                <e p="RFX4_Tornado.shader" t="Include" />
-                <e p="RFX4_UberDecal.shader" t="Include" />
-                <e p="RFX4_UberDistortion.shader" t="Include" />
-                <e p="RFX4_UberParticleShader.shader" t="Include" />
-              </e>
-            </e>
-            <e p="ImagePostEffects" t="Include">
-              <e p="Mobile" t="Include">
-                <e p="Resources" t="Include">
-                  <e p="RFX4_Bloom.shader" t="Include" />
-                  <e p="RFX4_Bloom_Inc.cginc" t="Include" />
-                </e>
-                <e p="RFX4_MobileBloom.cs" t="Include" />
-              </e>
-            </e>
-            <e p="readme.txt" t="Include" />
-            <e p="SceneResources" t="Include">
-              <e p="Other" t="Include">
-                <e p="CullOffMobileDiffuse.shader" t="Include" />
-                <e p="FPS.cs" t="Include" />
-                <e p="RFX4_Debug.cs" t="Include" />
-                <e p="RFX4_DemoGUI.cs" t="Include" />
-                <e p="RFX4_FPS.cs" t="Include" />
-                <e p="RFX4_MouseOrbit.cs" t="Include" />
-                <e p="RFX4_RealtimeReflection.cs" t="Include" />
-              </e>
-            </e>
           </e>
         </e>
         <e p="Thirdparty" t="Include">

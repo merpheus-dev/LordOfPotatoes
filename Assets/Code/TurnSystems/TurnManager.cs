@@ -32,6 +32,11 @@ namespace Code.TurnSystems
         {
             return activeTeam;
         }
+
+        public Team GetOppositeTeam()
+        {
+            return activeTeam == teamA ? teamB : teamA;
+        }
         
         private void Awake()
         {
