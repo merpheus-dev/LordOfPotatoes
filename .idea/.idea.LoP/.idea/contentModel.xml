@@ -10,6 +10,16 @@
       <e p="Assets" t="Include">
         <e p="Art" t="Include">
           <e p="FX" t="Include">
+            <e p="ErbGameArt" t="Include">
+              <e p="Procedural fire" t="Include">
+                <e p="Demo scene" t="Include">
+                  <e p="readme.txt" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="FireSphere.shader" t="Include" />
+                </e>
+              </e>
+            </e>
             <e p="JMO Assets" t="Include">
               <e p="Cartoon FX" t="Include">
                 <e p="CartoonFX Free.txt" t="Include" />
@@ -160,6 +170,10 @@
               <e p="WeightAlgorithm.cs" t="Include" />
               <e p="WeightedRandom.cs" t="Include" />
             </e>
+          </e>
+          <e p="Animations" t="Include">
+            <e p="KnightAnimator.cs" t="Include" />
+            <e p="UnitAnimator.cs" t="Include" />
           </e>
           <e p="Combat" t="Include">
             <e p="AttackActors" t="Include">

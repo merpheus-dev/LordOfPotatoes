@@ -40,9 +40,7 @@ namespace Code.Combat
             {
                 var authUnitPosition = turnManager.GetCurrentlyAuthUnit().transform.position;
                 authUnitPosition.y = 0;
-                var heading = (targetPosition - authUnitPosition).normalized;
-                heading.y = 0.1f;
-                ShowLineIndicator(authUnitPosition, heading*lineLength);
+                ShowLineIndicator(authUnitPosition, targetPosition);
             }
             else if (command is FlatAttackCommand)
                 ShowOnMouseCursor(targetPosition);

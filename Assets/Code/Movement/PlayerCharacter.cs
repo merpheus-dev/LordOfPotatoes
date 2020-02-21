@@ -50,7 +50,7 @@ namespace Code.Movement
         {
             if (command is AttackCommand attackCommand)
             {
-                attackCommand.InjectData(new AttackData(Animator,transform,targetPosition));
+                attackCommand.InjectData(new AttackData(animator,transform,targetPosition));
                 command = attackCommand;
             }
 

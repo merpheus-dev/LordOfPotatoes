@@ -7,7 +7,6 @@ using Grid = Code.GridSystems.Grid;
 
 namespace Code.Movement
 {
-    [RequireComponent(typeof(Animator))]
     public abstract class Unit : GridBlocker,IDamageable
     {
         [SerializeField] protected GridManager gridManager;
@@ -15,6 +14,7 @@ namespace Code.Movement
         [SerializeField] private float movementLerpTreshold = .02f;
         [SerializeField] private float speed = 5f;
         [SerializeField] private float health = 100;
+        [SerializeField] protected Animator animator;
         public float Health { get; private set; }
         public Grid CurrentGrid { get; protected set; }
         protected List<Grid> SelectableGrid = new List<Grid>();
@@ -23,14 +23,15 @@ namespace Code.Movement
         protected bool WaitingForCombatSelection = false;
         private Stack<Grid> movementPath = new Stack<Grid>();
         private Action _onTurnComplete;
+        private static readonly int Hit = Animator.StringToHash("Hit");
+        private static readonly int Die = Animator.StringToHash("Die");
+        private static readonly int Walk = Animator.StringToHash("Walk");
 
-        protected Animator Animator;
         protected abstract void AuthForCombatChoices();
 
-        private void Start()
+        protected void Awake()
         {
             Health = health;
-            Animator = GetComponent<Animator>();
         }
 
         protected void FindSelectableTiles()
@@ -91,9 +92,11 @@ namespace Code.Movement
                     transform.position = targetPosition;
                     movementPath.Pop();
                 }
+                animator.SetBool(Walk,true);
             }
             else
             {
+                animator.SetBool(Walk,false);
                 CurrentGrid.Walkable = true;
                 gridManager.ClearGridCalculations();
                 SelectableGrid.Clear();
@@ -120,6 +123,7 @@ namespace Code.Movement
         {
             Health -= hitPoint;
             Health = Mathf.Clamp(Health,0, Health);
+            animator.SetTrigger(Health > 0 ? Hit : Die);
         }
     }
 }

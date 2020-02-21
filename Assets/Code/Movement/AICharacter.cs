@@ -19,6 +19,7 @@ namespace Code.Movement
 
         private void Awake()
         {
+            base.Awake();
             _driver = GetComponent<AiCommandDriver>();
         }
 
@@ -75,7 +76,7 @@ namespace Code.Movement
         {
             var command = _driver.MakeDecision(this, _target);
             if (!(command is PassTurnCommand))
-                ((AttackCommand)command).InjectData(new AttackData(Animator, transform, _target.transform.position));
+                ((AttackCommand)command).InjectData(new AttackData(animator, transform, _target.transform.position));
             yield return command.Execute(null);
             WaitingForCombatSelection = false;
             FinishTurn();
