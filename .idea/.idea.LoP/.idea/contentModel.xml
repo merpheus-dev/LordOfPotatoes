@@ -10,6 +10,101 @@
       <e p="Assets" t="Include">
         <e p="Art" t="Include">
           <e p="FX" t="Include">
+            <e p="BOXOPHOBIC" t="Include">
+              <e p="Skybox Cubemap Extended" t="Include">
+                <e p="Core" t="Include">
+                  <e p="Shaders" t="Include">
+                    <e p="Skybox Cubemap Extended.shader" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Utils" t="Include">
+                <e p="CGIncludes" t="Include">
+                  <e p="VS_indirect.cginc" t="Include" />
+                </e>
+                <e p="Legacy" t="Include">
+                  <e p="Drawers" t="Include">
+                    <e p="BCategoryAttribute.cs" t="Include" />
+                    <e p="BInteractiveAttribute.cs" t="Include" />
+                    <e p="BLayersEnumAttribute.cs" t="Include" />
+                    <e p="BMessageAttribute.cs" t="Include" />
+                    <e p="BRangeOptionsAttribute.cs" t="Include" />
+                    <e p="BRangeSimpleAttribute.cs" t="Include" />
+                    <e p="Editor" t="Include">
+                      <e p="BBannerDrawer.cs" t="Include" />
+                      <e p="BCategoryAttributeDrawer.cs" t="Include" />
+                      <e p="BCategoryDrawer.cs" t="Include" />
+                      <e p="BInteractiveAttributeDrawer.cs" t="Include" />
+                      <e p="BInteractiveDrawer.cs" t="Include" />
+                      <e p="BLayersEnumAttributeDrawer.cs" t="Include" />
+                      <e p="BMessageAttributeDrawer.cs" t="Include" />
+                      <e p="BMessageDrawer.cs" t="Include" />
+                      <e p="BRangeOptionsAttributeDrawer.cs" t="Include" />
+                      <e p="BRangeSimpleAttributeDrawer.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="Editor" t="Include">
+                    <e p="BConst.cs" t="Include" />
+                    <e p="BEditorGUI.cs" t="Include" />
+                    <e p="BEditorUtils.cs" t="Include" />
+                    <e p="BVersion.cs" t="Include" />
+                  </e>
+                  <e p="Shaders" t="Include">
+                    <e p="SimpleLit Prototype Terrain.shader" t="Include" />
+                    <e p="StandardLit Prototype Terrain.shader" t="Include" />
+                  </e>
+                </e>
+                <e p="Resources" t="Include">
+                  <e p="Dummy Shader.shader" t="Include" />
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="StyledEditor" t="Include">
+                    <e p="Editor" t="Include">
+                      <e p="MonoBehaviourEditor.cs" t="Include" />
+                    </e>
+                    <e p="HideScriptField.cs" t="Include" />
+                  </e>
+                  <e p="StyledInspector" t="Include">
+                    <e p="Editor" t="Include">
+                      <e p="StyledBannerDrawer.cs" t="Include" />
+                      <e p="StyledMessageDrawer.cs" t="Include" />
+                      <e p="StyledRangeOptionsDrawer.cs" t="Include" />
+                      <e p="StyledSpaceDrawer.cs" t="Include" />
+                      <e p="StyledTexturePreviewDrawer.cs" t="Include" />
+                    </e>
+                    <e p="StyledBanner.cs" t="Include" />
+                    <e p="StyledMessage.cs" t="Include" />
+                    <e p="StyledRangeOptions.cs" t="Include" />
+                    <e p="StyledSpace.cs" t="Include" />
+                    <e p="StyledTexturePreview.cs" t="Include" />
+                  </e>
+                  <e p="StyledMaterial" t="Include">
+                    <e p="Editor" t="Include">
+                      <e p="StyledBannerDrawer.cs" t="Include" />
+                      <e p="StyledCategoryDrawer.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="Utils" t="Include">
+                    <e p="Editor" t="Include">
+                      <e p="BoxophobicUtils.cs" t="Include" />
+                      <e p="Constants.cs" t="Include" />
+                      <e p="ShaderUtils.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="Unlit Prototype Ground.shader" t="Include" />
+                  <e p="Unlit Prototype Skybox.shader" t="Include" />
+                </e>
+                <e p="Tools" t="Include">
+                  <e p="Texture Packer" t="Include">
+                    <e p="Shaders" t="Include">
+                      <e p="Texture Packer Blit.shader" t="Include" />
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
             <e p="ErbGameArt" t="Include">
               <e p="Procedural fire" t="Include">
                 <e p="Demo scene" t="Include">
@@ -158,6 +253,7 @@
                 </e>
               </e>
             </e>
+            <e p="Wind.shader" t="Include" />
           </e>
         </e>
         <e p="Code" t="Include">
@@ -174,6 +270,13 @@
           <e p="Animations" t="Include">
             <e p="UnitAnimator.cs" t="Include" />
             <e p="VaryingAnimator.cs" t="Include" />
+          </e>
+          <e p="Audio" t="Include">
+            <e p="AudioUtility" t="Include">
+              <e p="AudioBus.cs" t="Include" />
+              <e p="AudioManager.cs" t="Include" />
+            </e>
+            <e p="BackgroundAudio.cs" t="Include" />
           </e>
           <e p="Combat" t="Include">
             <e p="AttackActors" t="Include">
@@ -197,6 +300,7 @@
           </e>
           <e p="Editor" t="Include">
             <e p="AutoUIFit.cs" t="Include" />
+            <e p="SceneListManager.cs" t="Include" />
           </e>
           <e p="GridSystems" t="Include">
             <e p="Grid.cs" t="Include" />
@@ -220,6 +324,8 @@
             <e p="CombatUi.cs" t="Include" />
             <e p="EventDispatcher.cs" t="Include" />
             <e p="IUiEventListener.cs" t="Include" />
+            <e p="MenuUI.cs" t="Include" />
+            <e p="ScreenFade.cs" t="Include" />
             <e p="StatusCanvasController.cs" t="Include" />
           </e>
         </e>
@@ -261,6 +367,7 @@
             </e>
             <e p="readme_DOTweenPro.txt" t="Include" />
           </e>
+          <e p="StandardOverlay.shader" t="Include" />
           <e p="TextMesh Pro" t="Include">
             <e p="Fonts" t="Include">
               <e p="LiberationSans - OFL.txt" t="Include" />
@@ -289,6 +396,7 @@
               <e p="EmojiOne Attribution.txt" t="Include" />
             </e>
           </e>
+          <e p="UnlitOverlay.shader" t="Include" />
         </e>
       </e>
       <e p="DOTween.Modules.csproj" t="IncludeRecursive" />

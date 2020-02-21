@@ -24,6 +24,7 @@ namespace Code.UI
             _targetCanvas = GetComponent<Canvas>();
             _statusRect = statusText.GetComponent<RectTransform>();
             _targetCanvas.worldCamera = _targetCamera;
+            healthBarContainer.DOFade(0f, 0f);
         }
 
         private void FixedUpdate()

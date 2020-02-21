@@ -78,7 +78,7 @@ namespace Code.TurnSystems
 
         public void TakeTurn()
         {
-            if (teamA.Count() == 0 || teamB.Count()==0)
+            if (!teamA.Any() || !teamB.Any())
             {
                 EventDispatcher.OnGameOver?.Invoke(teamA.Any());
                 return;
