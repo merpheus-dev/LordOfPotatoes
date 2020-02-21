@@ -14,6 +14,11 @@ namespace Code.TurnSystems
         {
             units.Add(unit);
         }
+
+        public void RemoveUnit(Unit unit)
+        {
+            units.Remove(unit);
+        }
         
         public IEnumerator<Unit> GetEnumerator()
         {

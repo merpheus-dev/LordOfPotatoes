@@ -9,5 +9,6 @@ namespace Code.UI
     {
         public static Action<PlayerCharacter> OnUnitRequestsCombatOptions;
         public static Action<Command,Vector3> OnAttackCommandSelected;
+        public static Action<bool> OnGameOver;
     }
 }

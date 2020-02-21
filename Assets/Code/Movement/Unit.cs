@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Assets.Code.GridSystems;
 using Code.GridSystems;
+using Code.TurnSystems;
 using Code.UI;
 using DG.Tweening;
 using UnityEngine;
@@ -44,6 +45,7 @@ namespace Code.Movement
 
         protected bool IsAuthForTurn = false;
         private Action _onTurnComplete;
+        private TurnManager _turnManager;
 
         #endregion
 
@@ -60,6 +62,7 @@ namespace Code.Movement
         protected void Awake()
         {
             Health = health;
+            _turnManager = FindObjectOfType<TurnManager>();
         }
 
         protected void FindSelectableTiles()
@@ -153,7 +156,9 @@ namespace Code.Movement
             Health -= hitPoint;
             Health = Mathf.Clamp(Health, 0, Health);
             animator.SetTrigger(Health > 0 ? Hit : Die);
-            statusCanvasController.DisplayHealthBar(Health,health);
+            statusCanvasController.DisplayHealthBar(Health, health);
+            if (Health < .1f)
+                _turnManager.DeactivateUnit(this);
         }
     }
 }

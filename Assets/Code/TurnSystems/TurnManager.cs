@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Code.Movement;
+using Code.UI;
 using UnityEngine;
 
 namespace Code.TurnSystems
@@ -37,6 +38,19 @@ namespace Code.TurnSystems
         {
             return activeTeam == teamA ? teamB : teamA;
         }
+
+        public void DeactivateUnit(Unit unit)
+        {
+           teamA.RemoveUnit(unit);
+           teamB.RemoveUnit(unit);
+           var currentTurnList = turnables.ToList();
+           currentTurnList.Remove(unit);
+           turnables.Clear();
+           foreach (var current in currentTurnList)
+           {
+               turnables.Enqueue(current);
+           }
+        }
         
         private void Awake()
         {
@@ -64,6 +78,11 @@ namespace Code.TurnSystems
 
         public void TakeTurn()
         {
+            if (turnables.Count == 0)
+            {
+                EventDispatcher.OnGameOver?.Invoke(teamA.Any());
+                return;
+            }
             var authorizedMember = GetCurrentlyAuthUnit();
             authorizedMember.TakeTurn(OnTurnComplete);
         }

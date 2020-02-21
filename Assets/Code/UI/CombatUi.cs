@@ -4,6 +4,8 @@ using Code.Combat.AttackActors;
 using Code.GridSystems;
 using Code.Movement;
 using Code.TurnSystems;
+using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +15,9 @@ namespace Code.UI
     {
         [SerializeField] private GameObject combatOptionContainer;
         [SerializeField] private Button[] combatOptions;
+        [SerializeField] private GameObject gameResultGameObject;
+        [SerializeField] private RectTransform gameResultContainer;
+        [SerializeField] private TextMeshProUGUI resultText;
         [SerializeField] private AttackVisualizer attackVisualizer;
         [SerializeField] private TurnManager turnManager;
         private bool _listenMouseSelection = false;
@@ -26,6 +31,7 @@ namespace Code.UI
         public void RegisterEvents()
         {
             EventDispatcher.OnUnitRequestsCombatOptions += ShowCombatUiForUnit;
+            EventDispatcher.OnGameOver += ShowResultScreen;
         }
 
         private void ShowCombatUiForUnit(PlayerCharacter unit)
@@ -34,6 +40,13 @@ namespace Code.UI
             ChangeCombatButtonInteraction(true);
         }
 
+        private void ShowResultScreen(bool playerWin)
+        {
+            resultText.text = playerWin ? "ORCS DEFEATED" : "YOU FAILED";
+            gameResultGameObject.SetActive(true);
+            gameResultContainer.DOAnchorPosY(0f, 1f);
+        }
+        
         public void SelectAttackType(int attackType)
         {
             ChangeCombatButtonInteraction(false);

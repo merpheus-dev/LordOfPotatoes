@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e1cff77-d58b-4df3-bec5-bcbe58e02dbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Controllers/Knight 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Controllers/Knight 1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Controllers/Knight.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Anims/Controllers/Knight.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Die.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Die.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Orc Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Orc Idle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Orc Walk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Orc Walk.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/HobbitonBrushhandhobbitonBrush-WygA SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/HobbitonBrushhandhobbitonBrush-WygA SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/RingbearerMedium-w173 SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/RingbearerMedium-w173 SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Animations/KnightAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Animations/VaryingAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Animations/KnightAnimator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Animations/VaryingAnimator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/FlatAttackCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/FlatAttackCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/LargeAttackCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/LargeAttackCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/RangeAttackCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/RangeAttackCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/Command.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/PassTurnCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/PassTurnCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Movement/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Movement/PlayerCharacter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/TurnSystems/Team.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/TurnSystems/Team.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/Level1_Human.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/Level1_Human.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/OrkA.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/OrkA.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +72,6 @@
         <option value="$PROJECT_DIR$/Assets/GridManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Grid.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GridSystems/GridStatus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TurnSystems/Team.cs" />
         <option value="$PROJECT_DIR$/Assets/NavmeshTest.cs" />
         <option value="$PROJECT_DIR$/Assets/NavMeshTst.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GridSystems/Grid.cs" />
@@ -99,7 +80,6 @@
         <option value="$PROJECT_DIR$/Assets/Code/GridSystems/GridManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Movement/MovableCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Movement/AICharacter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GridSystems/GridVisualizer.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/RangeAttackCommand.cs" />
@@ -112,7 +92,6 @@
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/AttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/FlatAttackActor.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/AI/AiCommandDrive.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/RangeAttackActor.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/AI/WeightedRandom/WeightedRandom.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/AI/AiCommandDriver.cs" />
@@ -121,7 +100,6 @@
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/LargeAttackActor.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Animations/UnitAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Animations/DeathAnimationBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Animations/KnightAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/Command.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Movement/PlayerCharacter.cs" />
@@ -130,8 +108,12 @@
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/FlatAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/RangeAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/LargeAttackCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/UI/StatusCanvasController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TurnSystems/Team.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" />
       </list>
     </option>
   </component>
@@ -200,7 +182,7 @@
       <workItem from="1582126204147" duration="9880000" />
       <workItem from="1582144165057" duration="43069000" />
       <workItem from="1582238354003" duration="9628000" />
-      <workItem from="1582252780360" duration="2337000" />
+      <workItem from="1582252780360" duration="5189000" />
     </task>
     <servers />
   </component>
@@ -315,10 +297,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582233710779" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582254877463">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582257918825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582254877463" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582257918825" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
