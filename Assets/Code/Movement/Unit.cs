@@ -5,6 +5,7 @@ using Code.GridSystems;
 using Code.TurnSystems;
 using Code.UI;
 using DG.Tweening;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using Grid = Code.GridSystems.Grid;
@@ -30,7 +31,7 @@ namespace Code.Movement
         public float Health { get; private set; }
         protected bool WaitingForCombatSelection = false;
         protected bool Moving = false;
-
+        public bool Dead { get; private set; } = false;
         #endregion
 
         #region Grid based BFS Pathf Finding
@@ -135,6 +136,7 @@ namespace Code.Movement
                 CurrentGrid = null;
                 Moving = false;
                 AuthForCombatChoices();
+                EventDispatcher.OnUnitMovementComplete?.Invoke(this);
             }
         }
 
@@ -156,9 +158,13 @@ namespace Code.Movement
             Health -= hitPoint;
             Health = Mathf.Clamp(Health, 0, Health);
             animator.SetTrigger(Health > 0 ? Hit : Die);
+            if(!Dead)
             statusCanvasController.DisplayHealthBar(Health, health);
             if (Health < .1f)
+            {
                 _turnManager.DeactivateUnit(this);
+                Dead = true;
+            }
         }
     }
 }

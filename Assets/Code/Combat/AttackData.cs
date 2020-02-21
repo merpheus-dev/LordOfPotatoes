@@ -19,7 +19,6 @@ namespace Code.Combat
             TargetPosition = targetPosition;
             TargetRotation = Quaternion.identity;
             CalculateRotationFromHeadingVector();
-
         }
 
         private void CalculateRotationFromHeadingVector()

@@ -212,6 +212,7 @@
             <e p="Unit.cs" t="Include" />
           </e>
           <e p="TurnSystems" t="Include">
+            <e p="CameraController.cs" t="Include" />
             <e p="Team.cs" t="Include" />
             <e p="TurnManager.cs" t="Include" />
           </e>

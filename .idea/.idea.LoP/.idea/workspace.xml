@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e1cff77-d58b-4df3-bec5-bcbe58e02dbf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/AttackData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/AttackData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/TurnSystems/Team.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/TurnSystems/Team.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
@@ -41,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Code/Animations/UnitAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/GridSystems/Grid.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/AI/WeightedRandom/WeightedRandom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/TurnSystems/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/fd/86022d76/Action`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/UI/StatusCanvasController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackActors/RangeAttackActor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/6e/6ae1956b/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/PassTurnCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/UI/IUiEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18B38ADE-9B85-49A5-AFF4-B379F33ECCEC/e7/c5bc6946/Physics.cs" root0="SKIP_HIGHLIGHTING" />
@@ -84,7 +86,6 @@
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/RangeAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/LargeAttackCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackData.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/FlatAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/UI/CommandFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/CommandFactory.cs" />
@@ -110,10 +111,12 @@
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/LargeAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/UI/StatusCanvasController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TurnSystems/Team.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TurnSystems/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" />
       </list>
     </option>
   </component>
@@ -182,7 +185,8 @@
       <workItem from="1582126204147" duration="9880000" />
       <workItem from="1582144165057" duration="43069000" />
       <workItem from="1582238354003" duration="9628000" />
-      <workItem from="1582252780360" duration="5189000" />
+      <workItem from="1582252780360" duration="5629000" />
+      <workItem from="1582260241610" duration="817000" />
     </task>
     <servers />
   </component>
@@ -297,10 +301,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582233710779" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582257918825">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582260741234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582257918825" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582260741234" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

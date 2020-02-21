@@ -78,13 +78,14 @@ namespace Code.TurnSystems
 
         public void TakeTurn()
         {
-            if (turnables.Count == 0)
+            if (teamA.Count() == 0 || teamB.Count()==0)
             {
                 EventDispatcher.OnGameOver?.Invoke(teamA.Any());
                 return;
             }
             var authorizedMember = GetCurrentlyAuthUnit();
             authorizedMember.TakeTurn(OnTurnComplete);
+            EventDispatcher.OnTurnAuthChanged?.Invoke(authorizedMember);
         }
 
         private void OnTurnComplete()

@@ -10,5 +10,7 @@ namespace Code.UI
         public static Action<PlayerCharacter> OnUnitRequestsCombatOptions;
         public static Action<Command,Vector3> OnAttackCommandSelected;
         public static Action<bool> OnGameOver;
+        public static Action<Unit> OnTurnAuthChanged;
+        public static Action<Unit> OnUnitMovementComplete;
     }
 }
