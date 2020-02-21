@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Code.Movement;
+using Subtegral.AudioUtility;
 using UnityEngine;
 
 namespace Code.Combat.AttackActors
@@ -8,7 +9,7 @@ namespace Code.Combat.AttackActors
     {
         [SerializeField] private float damage = 10f;
         [SerializeField] private float effectRange = 2f;
-        
+        [SerializeField] private AudioClip sfx;
         public override void PerformAttack(RangeAttackCommand attackCommand)
         {
             var collider = Physics.OverlapSphere(transform.position, effectRange, LayerMask.GetMask("Units"));
@@ -17,6 +18,7 @@ namespace Code.Combat.AttackActors
             {
                 effectedOpponentUnit.ReceiveDamage(damage);
             }
+            AudioManager.GetInstance().SetPoolSize(3).PlayOneShot(sfx);
         }
     }
 }

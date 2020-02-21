@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Code.Movement;
 using DG.Tweening;
+using Subtegral.AudioUtility;
 using UnityEngine;
 
 namespace Code.Combat.AttackActors
@@ -11,6 +12,8 @@ namespace Code.Combat.AttackActors
     {
         [SerializeField] private float damage = 30;
         [SerializeField] private Transform visualizer;
+        [SerializeField] private AudioClip sfx;
+
         public override void PerformAttack(LargeAttackCommand attackCommand)
         {
             visualizer.DOMove(transform.position + transform.forward * attackCommand.Range, 1f)
@@ -30,6 +33,7 @@ namespace Code.Combat.AttackActors
                 effectedUnit.ReceiveDamage(damage);
                 yield return waitForSecondsCached;
             }
+            AudioManager.GetInstance().SetPoolSize(3).PlayOneShot(sfx);
         }
     }
 }

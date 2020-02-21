@@ -46,6 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 30
   visualizer: {fileID: 4251194219336159440}
+  sfx: {fileID: 8300000, guid: 8ea67e21aca5d5945a33fe8f016b2878, type: 3}
 --- !u!1001 &4247109405952301500
 PrefabInstance:
   m_ObjectHideFlags: 0

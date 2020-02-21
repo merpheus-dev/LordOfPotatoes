@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectRange: 1
   damage: 25
+  sfx: {fileID: 8300000, guid: a89c7c84de13e104b8ace1fd1764106c, type: 3}
 --- !u!1001 &343014084549194580
 PrefabInstance:
   m_ObjectHideFlags: 0
