@@ -5,12 +5,14 @@ using Code.GridSystems;
 using Code.Movement;
 using Code.TurnSystems;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Code.UI
 {
     public class CombatUi : MonoBehaviour, IUiEventListener
     {
         [SerializeField] private GameObject combatOptionContainer;
+        [SerializeField] private Button[] combatOptions;
         [SerializeField] private AttackVisualizer attackVisualizer;
         [SerializeField] private TurnManager turnManager;
         private bool _listenMouseSelection = false;
@@ -29,10 +31,13 @@ namespace Code.UI
         private void ShowCombatUiForUnit(PlayerCharacter unit)
         {
             combatOptionContainer.SetActive(true);
+            ChangeCombatButtonInteraction(true);
         }
 
         public void SelectAttackType(int attackType)
         {
+            ChangeCombatButtonInteraction(false);
+            
             _activeCommand = CommandFactory.ConvertAttackTypeToCommand(attackType,
                                                                 turnManager.GetCurrentlyAuthTeam());
             switch (_activeCommand)
@@ -93,6 +98,12 @@ namespace Code.UI
         {
             combatOptionContainer.SetActive(false);
             attackVisualizer.HideVisualizers();
+        }
+
+        private void ChangeCombatButtonInteraction(bool interactionsAllowed)
+        {
+            foreach (var combatOption in combatOptions)
+                combatOption.interactable = interactionsAllowed;
         }
     }
 }

@@ -19,6 +19,8 @@ namespace Code.Combat
             actor.GetComponent<LargeAttackActor>().PerformAttack(this);
         }
 
+        public override string CommandDisplayName { get; protected set; } = "SPELL CAST!";
+
         public override IEnumerator Execute(Action onComplete)
         {
             yield return base.Execute(onComplete);

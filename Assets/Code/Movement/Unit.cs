@@ -2,30 +2,58 @@
 using System.Collections.Generic;
 using Assets.Code.GridSystems;
 using Code.GridSystems;
+using Code.UI;
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 using Grid = Code.GridSystems.Grid;
 
 namespace Code.Movement
 {
-    public abstract class Unit : GridBlocker,IDamageable
+    public abstract class Unit : GridBlocker, IDamageable
     {
+        #region Exposed Parameters
+
         [SerializeField] protected GridManager gridManager;
         [SerializeField] private int radius = 5;
         [SerializeField] private float movementLerpTreshold = .02f;
         [SerializeField] private float speed = 5f;
         [SerializeField] private float health = 100;
         [SerializeField] protected Animator animator;
+        [SerializeField] protected StatusCanvasController statusCanvasController;
+
+        #endregion
+
+        #region Unit Info
+
         public float Health { get; private set; }
+        protected bool WaitingForCombatSelection = false;
+        protected bool Moving = false;
+
+        #endregion
+
+        #region Grid based BFS Pathf Finding
+
         public Grid CurrentGrid { get; protected set; }
         protected List<Grid> SelectableGrid = new List<Grid>();
-        protected bool Moving = false;
-        protected bool IsAuthForTurn = false;
-        protected bool WaitingForCombatSelection = false;
         private Stack<Grid> movementPath = new Stack<Grid>();
+
+        #endregion
+
+        #region Turn Info
+
+        protected bool IsAuthForTurn = false;
         private Action _onTurnComplete;
+
+        #endregion
+
+        #region Baked Animation Keys
+
         private static readonly int Hit = Animator.StringToHash("Hit");
         private static readonly int Die = Animator.StringToHash("Die");
         private static readonly int Walk = Animator.StringToHash("Walk");
+
+        #endregion
 
         protected abstract void AuthForCombatChoices();
 
@@ -52,11 +80,11 @@ namespace Code.Movement
                 if (grid.Distance >= radius) continue;
                 foreach (var adjent in grid.Adjents)
                 {
-                   if(adjent.Visited) continue;
-                   adjent.Parent = grid;
-                   adjent.Visited = true;
-                   adjent.Distance = 1 + grid.Distance;
-                   process.Enqueue(adjent);
+                    if (adjent.Visited) continue;
+                    adjent.Parent = grid;
+                    adjent.Visited = true;
+                    adjent.Distance = 1 + grid.Distance;
+                    process.Enqueue(adjent);
                 }
             }
         }
@@ -92,11 +120,12 @@ namespace Code.Movement
                     transform.position = targetPosition;
                     movementPath.Pop();
                 }
-                animator.SetBool(Walk,true);
+
+                animator.SetBool(Walk, true);
             }
             else
             {
-                animator.SetBool(Walk,false);
+                animator.SetBool(Walk, false);
                 CurrentGrid.Walkable = true;
                 gridManager.ClearGridCalculations();
                 SelectableGrid.Clear();
@@ -122,8 +151,9 @@ namespace Code.Movement
         public void ReceiveDamage(float hitPoint)
         {
             Health -= hitPoint;
-            Health = Mathf.Clamp(Health,0, Health);
+            Health = Mathf.Clamp(Health, 0, Health);
             animator.SetTrigger(Health > 0 ? Hit : Die);
+            statusCanvasController.DisplayHealthBar(Health,health);
         }
     }
 }

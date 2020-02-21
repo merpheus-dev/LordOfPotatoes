@@ -4,21 +4,28 @@
     <list default="true" id="0e1cff77-d58b-4df3-bec5-bcbe58e02dbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Controllers/Knight 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Controllers/Knight 1.controller.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Controllers/Knight.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Anims/Controllers/Knight.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/KnightAttack.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/KnightAttack.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/KnightHit.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/KnightHit.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/KnightIdle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/KnightIdle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/LargeAttackActor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/LargeAttackActor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Die.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Die.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Orc Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Orc Idle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Orc Walk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Anims/Orc/Orc Walk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/HobbitonBrushhandhobbitonBrush-WygA SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/HobbitonBrushhandhobbitonBrush-WygA SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/RingbearerMedium-w173 SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/RingbearerMedium-w173 SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Animations/KnightAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Animations/VaryingAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Animations/KnightAnimator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Animations/VaryingAnimator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/FlatAttackCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/FlatAttackCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/LargeAttackCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/LargeAttackCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/AttackVisualizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/AttackVisualizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/RangeAttackCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/RangeAttackCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/Command.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Combat/PassTurnCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Combat/PassTurnCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Movement/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Movement/PlayerCharacter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Animator Controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Animator Controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Attacks/LargeAttack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Attacks/LargeAttack.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/Level1_Human.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/Level1_Human.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/OrkA.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/OrkA.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,56 +38,51 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/d9/2072fc00/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Movement/GridBlocker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/GridSystems/GridVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackActors/LargeAttackActor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/GridSystems/GridStatus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/Command.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/CommandFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/fd/86022d76/Action`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/a8/bff06a7b/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Animations/KnightAnimator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/04/641684df/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/AI/AiCommandDriver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/PassTurnCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D2763AD-8235-4FC6-A022-A2846086CA7B/45/e4c54b2b/Animator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/TurnSystems/Team.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Movement/GridBlocker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackActors/FlatAttackActor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/GridSystems/GridVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/EditorPluginInterop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackActors/LargeAttackActor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Movement/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Movement/AiCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/GridSystems/GridStatus.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/GridSystems/GridManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18B38ADE-9B85-49A5-AFF4-B379F33ECCEC/cb/5918c48c/RaycastHit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/Command.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackActors/AttackActor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/CommandFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C5EB708-1BDE-4311-A3E4-4270B15169E4/dc/48834bcd/NavMesh.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Animations/UnitAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/GridSystems/Grid.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/AI/WeightedRandom/WeightedRandom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/fd/86022d76/Action`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/UI/StatusCanvasController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/a8/bff06a7b/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/AttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Animations/VaryingAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/DirectionalAttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/FlatAttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/LargeAttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/ff/84052593/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/04/641684df/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/RangeAttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/cc/5e4a8603/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/AI/AiCommandDriver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Movement/PlayerCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/AttackActors/RangeAttackActor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/6e/6ae1956b/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Combat/PassTurnCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/UI/IUiEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18B38ADE-9B85-49A5-AFF4-B379F33ECCEC/e7/c5bc6946/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D2763AD-8235-4FC6-A022-A2846086CA7B/45/e4c54b2b/Animator.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,36 +101,37 @@
         <option value="$PROJECT_DIR$/Assets/Code/Movement/AICharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/UI/EventDispatcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GridSystems/GridVisualizer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Combat/Command.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Combat/PassTurnCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/RangeAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/LargeAttackCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Movement/PlayerCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackData.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/FlatAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/UI/CommandFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/CommandFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/FlatAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/AttackActor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/RangeAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/AttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/FlatAttackActor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/AI/AiCommandDrive.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TurnSystems/TurnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/RangeAttackActor.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/AI/WeightedRandom/WeightedRandom.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/AI/AiCommandDriver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Movement/AiCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackVisualizer.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/LargeAttackActorVisualizer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/LargeAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackActors/LargeAttackActor.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Animations/UnitAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Animations/KnightAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Animations/DeathAnimationBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/CombatUi.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Animations/KnightAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Combat/Command.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Movement/PlayerCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Movement/AiCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Combat/PassTurnCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/FlatAttackCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/RangeAttackCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Combat/AttackCommands/LargeAttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Movement/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UI/StatusCanvasController.cs" />
       </list>
     </option>
   </component>
@@ -158,10 +161,10 @@
       <option name="RUNTIME_ARGUMENTS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17892">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17892" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -196,7 +199,8 @@
       <workItem from="1582126147622" duration="40000" />
       <workItem from="1582126204147" duration="9880000" />
       <workItem from="1582144165057" duration="43069000" />
-      <workItem from="1582238354003" duration="8551000" />
+      <workItem from="1582238354003" duration="9628000" />
+      <workItem from="1582252780360" duration="2337000" />
     </task>
     <servers />
   </component>
@@ -231,70 +235,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="602" height="618" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1582242003228" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.1.bottom" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.1.bottom" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.1.center" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.1.center" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.1.left" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.1.left" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.1.right" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.1.right" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.2.bottom" timestamp="1582243122347">
+    <state width="1493" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.2.bottom" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582243122347" />
-    <state width="1493" height="239" key="GridCell.Tab.2.center" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.2.center" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.2.left" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.2.left" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.2.right" timestamp="1582243122346">
+    <state width="1493" height="239" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.2.right" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1582243122346" />
-    <state width="1493" height="239" key="GridCell.Tab.3.bottom" timestamp="1582243122347">
+    <state width="1493" height="239" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.3.bottom" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582243122347" />
-    <state width="1493" height="239" key="GridCell.Tab.3.center" timestamp="1582243122347">
+    <state width="1493" height="239" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.3.center" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1582243122347" />
-    <state width="1493" height="239" key="GridCell.Tab.3.left" timestamp="1582243122347">
+    <state width="1493" height="239" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.3.left" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1582243122347" />
-    <state width="1493" height="239" key="GridCell.Tab.3.right" timestamp="1582243122347">
+    <state width="1493" height="239" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
+    <state width="1493" height="239" key="GridCell.Tab.3.right" timestamp="1582252392197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1582243122347" />
+    <state width="1493" height="239" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1582252392197" />
     <state x="562" y="0" key="RiderGenerateDialog" timestamp="1582129613790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -311,10 +315,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582233710779" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582247701311">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582254877463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582247701311" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582254877463" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -40,9 +40,6 @@ namespace Code.Movement
 
         private void FindNearestTarget()
         {
-            // _target = turnManager.GetPlayerTeamMembers()
-            //     .OrderBy(x => Vector3.Distance(x.transform.position, transform.position)).First();
-
             _target = _driver.PickTarget(this);
         }
 
@@ -75,6 +72,7 @@ namespace Code.Movement
         private IEnumerator PerformAttack()
         {
             var command = _driver.MakeDecision(this, _target);
+            statusCanvasController.DisplayActionTaken(command);
             if (!(command is PassTurnCommand))
                 ((AttackCommand)command).InjectData(new AttackData(animator, transform, _target.transform.position));
             yield return command.Execute(null);

@@ -15,7 +15,9 @@ namespace Code.Combat
         {
             actor.GetComponent<FlatAttackActor>().PerformAttack(this);
         }
-        
+
+        public override string CommandDisplayName { get; protected set; } = "SWORD ATTACK!";
+
         public override IEnumerator Execute(Action onComplete)
         {
             yield return base.Execute(onComplete);

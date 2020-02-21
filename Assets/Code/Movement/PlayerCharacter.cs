@@ -55,6 +55,7 @@ namespace Code.Movement
             }
 
             StartCoroutine(command.Execute(OnAttackPerformed));
+            statusCanvasController.DisplayActionTaken(command);
         }
 
         private void OnAttackPerformed()

@@ -172,8 +172,8 @@
             </e>
           </e>
           <e p="Animations" t="Include">
-            <e p="KnightAnimator.cs" t="Include" />
             <e p="UnitAnimator.cs" t="Include" />
+            <e p="VaryingAnimator.cs" t="Include" />
           </e>
           <e p="Combat" t="Include">
             <e p="AttackActors" t="Include">
@@ -219,6 +219,7 @@
             <e p="CombatUi.cs" t="Include" />
             <e p="EventDispatcher.cs" t="Include" />
             <e p="IUiEventListener.cs" t="Include" />
+            <e p="StatusCanvasController.cs" t="Include" />
           </e>
         </e>
         <e p="Thirdparty" t="Include">
